@@ -28,8 +28,16 @@
     margin-bottom: 15px;
     border-radius: 15px;
     list-style: none;
+
+    transition: background-color .2s ease-out;
+}
+
+.todoListMain .theList li:hover {
+    background-color: pink;
+    cursor: pointer;
 }
 
 .todoListMain .theList {
     padding: 0
 }
+
